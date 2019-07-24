@@ -1,5 +1,5 @@
 # underwater-test-dataset-U45-
-This project contains an effective and pubic underwater test dataset (U45) including the color casts, low contrast and haze-like effects of underwater degradation. Besides, it includes the entire results and scores of Fusion Enhance (FE) [1], Retinex-Based (RB) [2], UDCP [3], UIBLA [4], RED [5], CycleGAN [6], Weakly Supervised Color Transfer (WSCT) [7] and our proposed method. This project contains high-resolution version paper (11.1MB) to maintain the comprehensiveness of the experiment and a better reading experience, which is exactly the same as arXiv preprint except the subjective comparisons on U45 dataset.
+This project contains an effective and pubic underwater test dataset (U45) including the color casts, low contrast and haze-like effects of underwater degradation. Besides, it includes the entire results and scores of Fusion Enhance (FE) [1], Retinex-Based (RB) [2], UDCP [3], UIBLA [4], RED [5], CycleGAN [6], Weakly Supervised Color Transfer (WSCT) [7] and our proposed method.
 
 If you use the enhanced results and dataset, please cite the following papers:
 
