@@ -10,3 +10,18 @@ If you use the enhanced results and dataset, please cite the following papers:
 [5] Galdran, Adrian, et al. "Automatic red-channel underwater image restoration." Journal of Visual Communication and Image Representation 26 (2015): 132-145.  
 [6] J.-Y. Zhu, T. Park, P. Isola, and A. A. Efros, “Unpaired image-to-image translation using cycle-consistent adversarial networks,” in Proceedings of the IEEE international conference on computer vision, 2017, pp. 2223–2232.   
 [7] C. Li, J. Guo, and C. Guo, “Emerging from water: Underwater image color correction based on weakly supervised color transfer,” IEEE Signal Processing Letters, vol. 25, no. 3, pp. 323–327, 2018.
+## 简单题目
+
+### 0020.Valid Parentheses
+
+使用栈,遍历输入字符串
+
+如果当前字符为左半边括号时，则将其压入栈中
+
+如果遇到右半边括号时，分类讨论：
+
+1）如栈不为空且为对应的左半边括号，则取出栈顶元素，继续循环
+
+2）若此时栈为空，则直接返回false
+
+3）若不为对应的左半边括号，反之返回false
